@@ -8,8 +8,8 @@ export default function Footer() {
 
           {/* Left side */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold text-white">YourBrand</h3>
-            <p className="mt-2 text-sm text-gray-400">© 2025 YourBrand. All rights reserved.</p>
+            <h3 className="text-2xl font-bold text-white">MnC Agency</h3>
+            <p className="mt-2 text-sm text-gray-400">© 2025 MnC Agency. All rights reserved.</p>
           </div>
 
           {/* Center nav links */}

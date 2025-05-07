@@ -41,7 +41,7 @@ export default function ContactForm() {
               <input
                   type="tel"
                   id="number"
-                  placeholder="+234 801 234 5678"
+                  placeholder="+233 801 234 567"
                   className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
               />
