@@ -12,7 +12,7 @@ import SocialMediaSidebar from "../components/SocialMediaSidebar";
 import ContactForm from "../sections/ContactForm";
 export default function Home() {
   return (
-    <div className="font-sans text-gray-900 flex flex-col mn-h-screen flex-grow">
+    <div className="min-h-screen font-sans text-gray-900 flex flex-col mn-h-screen flex-grow">
       <Navbar />
       <Hero />
       <AboutSection />
@@ -20,7 +20,6 @@ export default function Home() {
       <Services />
       <ContactForm />
       <PricingSection />
-      <CaseStudies />
       <Testimonials />
       <Footer />
     </div>

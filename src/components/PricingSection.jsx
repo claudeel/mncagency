@@ -73,13 +73,7 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <button
-                className={`w-full py-3 text-white font-semibold rounded-xl ${
-                  plan.popular ? "bg-blue-600 hover:bg-blue-700" : "bg-gray-800 hover:bg-gray-900"
-                } transition`}
-              >
-                Get Started
-              </button>
+
             </div>
           ))}
         </div>
