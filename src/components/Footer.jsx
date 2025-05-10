@@ -1,4 +1,5 @@
 import React from "react";
+import {FaTiktok } from "react-icons/fa";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
           {/* Left side */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-white">MnC Agency</h3>
-            <p className="mt-2 text-sm text-gray-400">© 2025 MnC Agency. All rights reserved.</p>
+            <p className="mt-2 text-sm text-gray-400">© 2025 MnC Agency. All rights reserved. Developed by CEKAS SITES</p>
           </div>
 
           {/* Center nav links */}
@@ -21,18 +22,18 @@ export default function Footer() {
 
           {/* Right side social icons */}
           <div className="flex justify-center space-x-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-              <Facebook size={20} />
+            <a href="https://www.tiktok.com/@mncdigitalagency?_t=ZM-8wDm4LbL8mz&_r=1" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+              <FaTiktok size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            <a href="https://x.com/mncagency?s=21" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               <Twitter size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            <a href="https://www.instagram.com/mncagency?igsh=MTVxOWVtdzE0d2JqMg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               <Instagram size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            {/*<a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               <Linkedin size={20} />
-            </a>
+            </a*/}
           </div>
 
         </div>

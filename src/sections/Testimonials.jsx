@@ -14,35 +14,30 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      quote: "Their team is pure gold. Our brand visibility exploded!",
-      name: "Jane Doe",
-      company: "CEO, Glow Cosmetics",
+      quote: "We look forward to working with you!",
+      name: "Martin Eze",
+      company: "CEO, MnC Agency",
     },
     {
-      quote: "We saw ROI in under 30 days. Couldn't recommend more.",
-      name: "Mark Roberts",
-      company: "Founder, Appfinity",
-    },
-    {
-      quote: "Their content strategy is unmatched. We went viral twice!",
-      name: "Lisa Grant",
-      company: "Marketing Lead, QuickBites",
+      quote: "Let's take your business to the next level!",
+      name: "CLaude Appiah-Sasraku",
+      company: "Web Developer",
     },
   ];
 
   return (
       <section id="testimonials" className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-800">What Clients Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-800">From Our Team.</h2>
 
           <div className="relative">
             {/* Scroll buttons (hidden on small screens) */}
-            <button
+            {/*<button
                 onClick={scrollLeft}
                 className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white p-3 rounded-full shadow hover:bg-blue-700 transition"
             >
               <ChevronLeft className="h-5 w-5" />
-            </button>
+            </button>*/}
 
             <div
                 ref={scrollRef}
@@ -60,12 +55,12 @@ export default function Testimonials() {
               ))}
             </div>
 
-            <button
+            {/*<button
                 onClick={scrollRight}
                 className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white p-3 rounded-full shadow hover:bg-blue-700 transition"
             >
               <ChevronRight className="h-5 w-5" />
-            </button>
+            </button>*/}
           </div>
         </div>
       </section>
